@@ -7,5 +7,5 @@ app = create_app()
 def make_shell_context():
     return {'db': db, 'Product': Product, 'Customer': Customer, 'Sale': Sale}
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run()
